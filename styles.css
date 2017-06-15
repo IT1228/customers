@@ -1,0 +1,45 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.title{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.customers{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.person{
+  flex:1;
+  min-width: 300px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.name{
+  text-decoration-line: underline;
+  padding-bottom: 5px;
+
+}
+
+.email{
+  padding-bottom: 10px;
+
+}
+
+.location{
+
+}
+
+.phone{
+
+}
